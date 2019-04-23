@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/",
+    "proxy": "portfolio.test",
     "notify": false
   },
   "browserSyncWatchFiles" : [

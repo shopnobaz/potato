@@ -1,1 +1,44 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@import "pages/_front-page";
+
+
+#wrapper-hero{
+    .jumbotron {
+        background-color: linear-gradient(
+            rgba($black,0.2),
+            rgba($black,0.2)
+        ), url(https://picsum.photos/1920/500/?random);
+        background-size :cover;
+    }
+}
+
+#front-page-hero{
+    background-color: brown;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .container {
+color:white;
+text-align: center;
+
+h1{
+font-size : 1.75rem;
+h2{
+    font-size: 1.25rem;
+    img{
+        max-width: 50%;
+    }
+    }
+    }
+    } // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+}
+
+
+
+
+#wrapper-usps{
+    background-color: red;
+    h1{
+        font-size: 14px;
+    }
+}
