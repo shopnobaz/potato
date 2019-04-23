@@ -20,7 +20,7 @@ if ($languages->have_posts()) {
 	// GREAT SUCCESS!
 	?>
 		<div class="wrapper" id="wrapper-languages">
-			<div class="container col-md-4">
+			<div class="container">
 				<div class="row">
 					<!-- Loop over the USPs -->
 					<?php
@@ -28,7 +28,7 @@ if ($languages->have_posts()) {
 							$languages->the_post();
 							?>
 								<!-- For each USP, include a template part? -->
-								<?php get_template_part('loop-templates/content', 'languages'); ?>
+								<?php get_template_part('loop-templates/content', 'language'); ?>
 							<?php
 						}
 

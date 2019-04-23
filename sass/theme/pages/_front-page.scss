@@ -1,16 +1,14 @@
-
-
-
-
-@import "front-page/portfolio" ;
-@import "front-page/usps" ;
-@import "front-page/contact" ;
-@import "front-page/languages" ;
-
+@import "front-page/contact";
+@import "front-page/languages";
+@import "front-page/usps";
 .home{
     section{
         padding-top: 2rem;
         padding-bottom: 2rem;
 
     }
+}
+
+html {
+	background-color: pink;
 }
