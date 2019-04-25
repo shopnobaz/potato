@@ -15,13 +15,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-<?php get_template_part( 'global-templates/hero-potato' ); ?>
-<?php get_template_part( 'global-templates/usps' ); ?>
+<?php get_template_part('global-templates/hero-potato');?>
+<?php get_template_part('global-templates/usps');?>
 
-<?php get_template_part( 'global-templates/portfolio-items' ); ?>
-<?php get_template_part( 'global-templates/knowledge' ); ?>
-<?php get_template_part( 'global-templates/languages' ); ?>
-<?php get_template_part( 'global-templates/contact' ); ?>
+<?php get_template_part('global-templates/portfolio-items');?>
+<?php get_template_part('global-templates/knowledge');?>
+<?php get_template_part('global-templates/languages');?>
+<?php get_template_part('global-templates/contact');?>
 
 
 
